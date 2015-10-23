@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script src="script.js"></script>
+        <script src="jquery.js"></script>
+        <title>El Food Tracker</title>
+    </head>
+    <body>
+        <div id="Information">
+            <form>
+                <h3>El Ultimato Food Trackero</h3>
+                <table align="center">
+                    <tr><td>Food Name</td></tr>
+                    <tr><td><input type="text" name="foodname" id="foodname"></td></tr>
+
+                    <tr><td>Definition</td></tr>
+                    <tr><td colspan="2"><textarea rows="4" cols="30" name="definition" id="definition"></textarea></td></tr>
+
+                    <tr><td>Purchase Date</td></tr>
+                    <tr><td><input type="date" name="purchasedate" id="purchasedate"></td></tr>
+
+                    <tr><td>Expiration Date</td></tr>
+                    <tr><td><input type="date" name="expirationdate" id="expirationdate"></td></tr>
+                    <tr><td><button type="button" name="B1" onclick="addFoods();">Submit</button></td></tr>
+                </table>
+            </form>
+        </div>
+        <div id="Results">
+            <table border="1" id="savedFoodsT" align="center">
+                <thead></thead>
+                <tbody id="savedFoods">
+                    <tr>
+                        <td>Food Name</td>
+                        <td>Description</td>
+                        <td>Purchase Date</td>
+                        <td>Expiration Date</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

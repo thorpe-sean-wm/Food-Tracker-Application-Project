@@ -1,0 +1,34 @@
+body {
+    background-image: url("http://www.hdwuz.com/wp-content/uploads/2015/10/blue_background_268_image_amazing.jpg");
+    background-size: auto;
+}
+
+#Information {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 1200px;
+    bottom:350px;
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+#Results {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+table {
+    width: 500px;
+    color: black;
+}
+td {
+    text-align: left;
+    color: black;
+}
+#savedFoodsT {
+    width: 900px;
+}
