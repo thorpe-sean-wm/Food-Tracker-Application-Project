@@ -31,4 +31,11 @@ td {
 }
 #savedFoodsT {
     width: 900px;
+    background-color: white;
+}
+#colorRow {
+    background-color: white;
+}
+#colorRowChange {
+    background-color: red;
 }
